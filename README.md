@@ -3,7 +3,7 @@ The Capital Asset Pricing Model (CAPM) is a financial model that helps investors
 
 Expected Return = Risk-Free Rate + Beta * (Market Return - Risk-Free Rate)
 
-The web application integrates these libraries to gather stock data from Yahoo Finance, a popular financial data provider. It retrieves historical price data and other relevant information for the specified stocks.
+The web application integrates libraries such as Pandas, Streamlit, Plotly, to gather stock data from Yahoo Finance, a popular financial data provider. It retrieves historical price data and other relevant information for the specified stocks.
 
 Using the gathered data, the application performs CAPM calculations for each stock. It calculates the expected return by applying the CAPM formula, utilizing the risk-free rate, beta, and market return.
 
